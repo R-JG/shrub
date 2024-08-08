@@ -1,6 +1,7 @@
 /@  ui-event
 /@  sail
 /-  lib-sail=sail
+/-  feather-icons
 /*  feather
 ^-  kook:neo
 =<
@@ -35,8 +36,6 @@
         %ui-event
       =/  event  !<(ui-event vase)
       =/  here=pith:neo  p:(~(got by deps.bowl) %src)
-    ::   =/  =lore:neo  q:(~(got by deps.bowl) %src)
-      ~&  >>  path.event
       :_  pail
       :~  
         :-  here
@@ -92,9 +91,8 @@
   (trip smeg)
   ::
   ++  controls
-  ~&  id/id
   ^-  manx
-  ;div.p2.frw.jc.ac.g3.sticky.wf
+  ;div.p2.fr.jc.ac.g3.sticky.wf
   =style  "top:0; left: 0;"
     ;button.p-1.br1.b1.hover
       =type  "button"
@@ -166,8 +164,11 @@
     ==
     ;div.absolute
       =style  "top: 14px; right: 14px;"
-      ;div
-        ;span(style "opacity: 0;"): ---
+      ;div.loader
+        ;span.loaded(style "opacity: 0;"): ---
+        ;span.loading
+          ;+  loading.feather-icons
+        ==
       ==
     ==
   ==
