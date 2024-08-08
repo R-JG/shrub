@@ -211,7 +211,7 @@ button {
   height: fit-content;
 }
 .mono {
-  font-family: var(--font-mono), monospace;
+  font-family: var(--font-mono), monoco;
   font-size: calc(1em * var(--mono-scale));
 }
 .italic {
